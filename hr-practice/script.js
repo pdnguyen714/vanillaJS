@@ -34,16 +34,23 @@
 //   console.log('positionElement:', positionElement);
   
   // ========== objects practice ==========
-  function returnAValue(obj, key) {
-    return obj[key];
-  }
+//   function returnAValue(obj, key) {
+//     return obj[key];
+//   }
   
-  var computer = {
-    name: "MacBook Pro",
-    version: "10.14.6",
-    processor: "2 GHz Intel Core i7",
-    memory_gb: 8
-  };
-  var nameOfKey = "version";
-  var valueAtKey = returnAValue(computer, nameOfKey);
-  console.log('valueAtKey:', valueAtKey);
+//   var computer = {
+//     name: "MacBook Pro",
+//     version: "10.14.6",
+//     processor: "2 GHz Intel Core i7",
+//     memory_gb: 8
+//   };
+//   var nameOfKey = "version";
+//   var valueAtKey = returnAValue(computer, nameOfKey);
+//   console.log('valueAtKey:', valueAtKey);
+
+  // ========== booleans practice ==========
+  var haveACar = true;
+  var bussesAreRunning = true;
+  
+  var willAttendEvent = haveACar || bussesAreRunning;
+  console.log("I will attend the event:", willAttendEvent);
