@@ -148,3 +148,30 @@ function roundDown(num) {
   // return result
   return result;
 }
+
+function roundUp(num) {
+  // create a result variable
+  var result;
+  // assign it to input, rounded up
+  result = Math.ceil(num);
+  // return result
+  return result;
+}
+
+function applyParseInt(numString) {
+  // create a result variable
+  var result;
+  // assign it to parsed integer from input string
+  result = Number.parseInt(numString);
+  // return result
+  return result;
+}
+
+function applyParseFloat(numString) {
+  // create a result variable
+  var result;
+  // assign it to parsed float from input string
+  result = Number.parseFloat(numString);
+  // return result
+  return result;
+}
