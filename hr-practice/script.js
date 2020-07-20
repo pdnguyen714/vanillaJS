@@ -175,3 +175,12 @@ function applyParseFloat(numString) {
   // return result
   return result;
 }
+
+function generateRandomNumber(min, max) {
+  // create a result variable
+  var result;
+  // assign it to formula for random number between min and max
+  result = Math.random() * (max - min) + min;
+  // return result
+  return result;
+}
