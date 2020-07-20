@@ -184,3 +184,21 @@ function generateRandomNumber(min, max) {
   // return result
   return result;
 }
+
+function applyGreaterThan(num1, num2) {
+  // create a result variable
+  var result;
+  // assign it expression comparing if num1 is greater than num2
+  result = num1 > num2;
+  // return result
+  return result;
+}
+
+function applyLessThanOrEqualTo(num1, num2) {
+  // create a result variable
+  var result;
+  // assign it expression comparing if num1 is less than or equal num2
+  result = num1 <= num2;
+  // return result
+  return result;
+}
