@@ -246,3 +246,12 @@ function createFullName(firstName, lastName) {
   // return the fullName variable
   return fullName;
 }
+
+function interpolateAString(activity, dayOfTheWeek) {
+  // create a result variable
+  var result;
+  // assign it to an expression which interpolates the input parameters into the described message
+  result = "We will go " + activity + " on " + dayOfTheWeek + ".";
+  // return the result variable
+  return result;
+}
