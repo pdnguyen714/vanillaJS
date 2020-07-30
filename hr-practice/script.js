@@ -221,3 +221,10 @@ function accessACharacter(string, index) {
   // return the result variable
   return result;
 }
+
+function reassignAString(string) {
+  // reassign input string to described string
+  input = "reassigned";
+  // return the input string
+  return input;
+}
