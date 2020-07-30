@@ -212,3 +212,12 @@ function createString() {
   // return the result variable
   return result;
 }
+
+function accessACharacter(string, index) {
+  // create a result variable,
+  var result;
+  // assign it to an expression that accesses the character within string at the index
+  result = string[index]
+  // return the result variable
+  return result;
+}
