@@ -228,3 +228,12 @@ function reassignAString(string) {
   // return the input string
   return input;
 }
+
+function addTogetherTwoStrings(string1, string2) {
+  // create a result variable
+  var result;
+  // assign it to an expression which adds together string1 and string2
+  result = string1 + string2;
+  // return the result variable
+  return result;
+}
