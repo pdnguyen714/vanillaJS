@@ -237,3 +237,12 @@ function addTogetherTwoStrings(string1, string2) {
   // return the result variable
   return result;
 }
+
+function createFullName(firstName, lastName) {
+  // create a fullName variable
+  var fullName;
+  // assign it to an expression adding first and last name with a space in between
+  fullName = firstName + " " + lastName;
+  // return the fullName variable
+  return fullName;
+}
