@@ -202,3 +202,13 @@ function applyLessThanOrEqualTo(num1, num2) {
   // return result
   return result;
 }
+
+// ========== strings practice ==========
+function createString() {
+  // create a result variable,
+  var result;
+  // assign it to a new string
+  result = "string";
+  // return the result variable
+  return result;
+}
