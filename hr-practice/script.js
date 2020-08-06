@@ -264,3 +264,14 @@ function getStringLength(string) {
   // return the length variable
   return length;
 }
+
+function getLastCharacter(string) {
+  // create a lastIndex variable
+  // assign it to the last index in the string
+  var lastIndex = string.length - 1;
+  // create a lastCharacter variable
+  // assign it to the last character in the string (make use of lastIndex)
+  var lastCharacter = string[lastIndex];
+  // return the lastCharacter variable
+  return lastCharacter;
+}
