@@ -255,3 +255,12 @@ function interpolateAString(activity, dayOfTheWeek) {
   // return the result variable
   return result;
 }
+
+function getStringLength(string) {
+  // create a length variable
+  var length;
+  // assign it to the length of the string
+  length = string.length;
+  // return the length variable
+  return length;
+}
