@@ -302,3 +302,12 @@ function applyToString(param) {
   // return the stringVersion variable
   return stringVersion;
 }
+
+function generateHaiku(firstLine, secondLine, thirdLine) {
+  // create a haiku variable
+  var haiku;
+  // assign it to an expression involving the input lines, such that they format correct when the return value is logged to the console
+  haiku = firstLine + '\n' + secondLine + '\n' + thirdLine;
+  // return the haiku variable
+  return haiku;
+}
