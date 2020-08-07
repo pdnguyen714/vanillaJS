@@ -275,3 +275,12 @@ function getLastCharacter(string) {
   // return the lastCharacter variable
   return lastCharacter;
 }
+
+function applySubString(string, start, end) {
+  // create a subString variable
+  var subString;
+  // assign it to a portion of the string from before start, up to, but not including end
+  subString = string.substring(start, end);
+  // return the subString variable
+  return subString;
+}
