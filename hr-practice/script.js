@@ -284,3 +284,12 @@ function applySubString(string, start, end) {
   // return the subString variable
   return subString;
 }
+
+function applyIndexOf(string, subString) {
+  // create an index variable
+  var index;
+  // assign it to the index inside of string where subString can first be found
+  index = string.indexOf(subString);
+  // return the index variable
+  return index;
+}
