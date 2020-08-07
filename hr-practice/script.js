@@ -293,3 +293,12 @@ function applyIndexOf(string, subString) {
   // return the index variable
   return index;
 }
+
+function applyToString(param) {
+  // create a stringVersion variable
+  var stringVersion;
+  // assign it to the string version of the input param
+  stringVersion = param.toString();
+  // return the stringVersion variable
+  return stringVersion;
+}
