@@ -311,3 +311,14 @@ function generateHaiku(firstLine, secondLine, thirdLine) {
   // return the haiku variable
   return haiku;
 }
+
+// ========== arrays practice ==========
+
+function createArray() {
+  // create a result variable,
+  var result;
+  // assign it to a new array
+  result = [];
+  // return the result variable
+  return result;
+}
