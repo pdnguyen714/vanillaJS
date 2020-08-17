@@ -322,3 +322,12 @@ function createArray() {
   // return the result variable
   return result;
 }
+
+function accessAnElement(array, index) {
+  // create a result variable,
+  var result;
+  // assign it to an expression that accesses the element within array at the index
+  result = array[index];
+  // return the result variable
+  return result;
+}
