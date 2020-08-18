@@ -380,3 +380,11 @@ function applyUnshift(array, element) {
   // return the array
   return array;
 }
+
+function applyShift(array) {
+  // create a shifted variable
+  var shifted = array.shift();
+  // assign it to an expression removing the first element from the array
+  // return the shifted variable
+  return shifted;
+}
