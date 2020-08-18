@@ -373,3 +373,10 @@ function applyPop(array) {
   // return the popped variable
   return popped;
 }
+
+function applyUnshift(array, element) {
+  // add the element to the front of the array
+  array.unshift(element);
+  // return the array
+  return array;
+}
