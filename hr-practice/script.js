@@ -338,3 +338,12 @@ function reassignAnElement(array, index, newValue) {
   // return the input array
   return array;
 }
+
+function getArrayLength(array) {
+  // create a length variable
+  var length;
+  // assign it to the length of the array
+  length = array.length;
+  // return the length variable
+  return length;
+}
