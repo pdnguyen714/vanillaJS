@@ -492,3 +492,10 @@ function reassignAProperty(object, key, newValue) {
   // return the input object
   return object;
 }
+
+function removeAProperty(object, key) {
+  // remove the property at the given key from the object
+  delete object[key];
+  // return the object
+  return object;
+}
