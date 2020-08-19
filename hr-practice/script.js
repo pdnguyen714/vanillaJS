@@ -507,3 +507,17 @@ function isPropertyPresent(object, key) {
   // return the isPresent variable
   return isPresent;
 }
+
+function isAnObject(input) {
+  // create an isObject variable
+  var isObject = typeof input === "object";
+  // assign it to whether the input is an object type
+  // create an isNotAnArray variable
+  var isNotAnArray = !Array.isArray(input);
+  // assign it to whether the input is not an array
+  // create an isObjectAndNotAnArray variable
+  var isObjectAndNotAnArray = isObject && isNotAnArray;
+  // assign it to a combination of isObject AND isNotAnArray
+  // return the isObjectAndNotAnArray variable
+  return isObjectAndNotAnArray;
+}
