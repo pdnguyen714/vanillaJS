@@ -521,3 +521,11 @@ function isAnObject(input) {
   // return the isObjectAndNotAnArray variable
   return isObjectAndNotAnArray;
 }
+
+function getAllKeys(obj) {
+  // create a keys variable
+  var keys = Object.keys(obj);
+  // assign it to an expression which will generate an array of all of the keys in obj
+  // return to the keys variable
+  return keys;
+}
