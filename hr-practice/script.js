@@ -477,3 +477,11 @@ function createObject() {
   // assign it to a new object
   // return the result variable
 }
+
+function accessAProperty(object, key) {
+  // create a result variable,
+  var result = object[key];
+  // assign it to an expression that accesses the property in the object located at the key
+  // return the result variable
+  return result;
+}
