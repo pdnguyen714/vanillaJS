@@ -529,3 +529,11 @@ function getAllKeys(obj) {
   // return to the keys variable
   return keys;
 }
+
+function getAllValues(obj) {
+  // create a values variable
+  var values = Object.values(obj);
+  // assign it to an expression which will generate an array of all of the values in obj
+  // return to the values variable
+  return values;
+}
