@@ -435,3 +435,11 @@ function makeACopy(array) {
   // return the copyOfArray variable
   return copyOfArray;
 }
+
+function applyConcat(array1, array2) {
+  // create a concattedArray variable
+  var concattedArray = array1.concat(array2);
+  // assign it to the contents of both array1 and array2
+  // return the concattedArray variable
+  return concattedArray;
+}
