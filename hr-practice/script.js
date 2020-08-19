@@ -427,3 +427,11 @@ function applySlice(array, start, end) {
   // return the sliceOfArray variable
   return sliceOfArray;
 }
+
+function makeACopy(array) {
+  // create a copyOfArray variable
+  var copyOfArray = array.slice();
+  // assign it to a copy of the array
+  // return the copyOfArray variable
+  return copyOfArray;
+}
