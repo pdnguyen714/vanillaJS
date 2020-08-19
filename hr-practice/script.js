@@ -459,3 +459,21 @@ function applySplit(stringToBeSplit, splitter) {
   // return the splitString variable
   return splitString;
 }
+
+function applyIndexOfToArray(array, element) {
+  // create an index variable
+  var index = array.indexOf(element);
+  // assign it to the index inside of array where element can be found
+  // return the index variable
+  return index;
+}
+
+// ========== objects practice ==========
+
+function createObject() {
+  // create a result variable,
+  var result = {};
+  return result;
+  // assign it to a new object
+  // return the result variable
+}
