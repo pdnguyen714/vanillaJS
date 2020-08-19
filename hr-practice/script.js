@@ -419,3 +419,11 @@ function isAnArray(input) {
   // return the result variable
   return result;
 }
+
+function applySlice(array, start, end) {
+  // create a sliceOfArray variable
+  var sliceOfArray = array.slice(start, end);
+  // assign it to a portion of the array from before start, up to, but not including end
+  // return the sliceOfArray variable
+  return sliceOfArray;
+}
