@@ -499,3 +499,11 @@ function removeAProperty(object, key) {
   // return the object
   return object;
 }
+
+function isPropertyPresent(object, key) {
+  // create an isPresent variable
+  var isPresent = object[key] !== undefined;
+  // assign it to a comparison between object's value at key and undefined
+  // return the isPresent variable
+  return isPresent;
+}
