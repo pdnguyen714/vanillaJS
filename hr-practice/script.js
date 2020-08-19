@@ -485,3 +485,10 @@ function accessAProperty(object, key) {
   // return the result variable
   return result;
 }
+
+function reassignAProperty(object, key, newValue) {
+  // reassign the property's value in the object, located at the key, to the newValue parameter
+  object[key] = newValue;
+  // return the input object
+  return object;
+}
