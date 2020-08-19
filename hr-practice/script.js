@@ -410,3 +410,12 @@ function applySplice(array, index, item1, item2) {
   // return the array
   return array;
 }
+
+function isAnArray(input) {
+  // create a result variable
+  var result;
+  // assign it to a call to the applicable method
+  result = Array.isArray(input)
+  // return the result variable
+  return result;
+}
