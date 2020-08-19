@@ -451,3 +451,11 @@ function applyJoin(arrayOfStrings, string) {
   // return the joinedString variable
   return joinedString;
 }
+
+function applySplit(stringToBeSplit, splitter) {
+  // create a splitString variable
+  var splitString = stringToBeSplit.split(splitter);
+  // assign it to an array which contains the elements in the stringToBeSplit separated by the splitter
+  // return the splitString variable
+  return splitString;
+}
