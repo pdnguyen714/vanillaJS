@@ -403,3 +403,10 @@ function removeAnElementInGeneral(array, index) {
   // return the array
   return array;
 }
+
+function applySplice(array, index, item1, item2) {
+  // remove two elements from the array at the index given, and adds item1 and item2 in their place
+  array.splice(index, 2, item1, item2);
+  // return the array
+  return array;
+}
