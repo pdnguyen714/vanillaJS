@@ -388,3 +388,11 @@ function applyShift(array) {
   // return the shifted variable
   return shifted;
 }
+
+function addAnElementInGeneral(array, index, element) {
+  // add the element to the array at the index given
+  array.splice(index, 0, element);
+  // (be sure not to replace any existing elements)
+  // return the array
+  return array;
+}
