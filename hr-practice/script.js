@@ -396,3 +396,10 @@ function addAnElementInGeneral(array, index, element) {
   // return the array
   return array;
 }
+
+function removeAnElementInGeneral(array, index) {
+  // remove the element from the array at the index given
+  array.splice(index, 1);
+  // return the array
+  return array;
+}
