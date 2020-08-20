@@ -552,3 +552,11 @@ function isAnArrayAgain(inputObj, key) {
   // return the result variable
   return result;
 }
+
+function getAllKeysAgain(obj, key) {
+  // create a keys variable
+  var keys = Object.keys(obj[key]);
+  // assign it to an expression which will generate an array of all of the keys located within obj at key
+  // return to the keys variable
+  return keys;
+}
