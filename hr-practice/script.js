@@ -544,3 +544,11 @@ function applyUnshiftAgain(arrayOfArrays, index, element) {
   // return the array of arrays
   return arrayOfArrays;
 }
+
+function isAnArrayAgain(inputObj, key) {
+  // create a result variable
+  var result = Array.isArray(inputObj[key]);
+  // assign it to a call to the applicable method
+  // return the result variable
+  return result;
+}
