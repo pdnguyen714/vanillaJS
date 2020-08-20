@@ -537,3 +537,10 @@ function getAllValues(obj) {
   // return to the values variable
   return values;
 }
+
+function applyUnshiftAgain(arrayOfArrays, index, element) {
+  // add the element to the front of the inner array within the array of arrays located at the index
+  arrayOfArrays[index].unshift(element);
+  // return the array of arrays
+  return arrayOfArrays;
+}
