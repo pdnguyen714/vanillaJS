@@ -552,5 +552,3 @@ function isAnArrayAgain(inputObj, key) {
   // return the result variable
   return result;
 }
-
-// test
