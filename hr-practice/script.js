@@ -608,3 +608,15 @@ function generateReportSummary(reportTotals, teamName) {
 
   }
 }
+
+function isItTruthy(param) {
+  // if param is truthy
+  if (param) {
+      return "Input is truthy";
+  } else {
+      return "Input is falsy";
+  }
+    // return 'Input is truthy'
+  // otherwise
+    // return 'Input is falsy'
+}
