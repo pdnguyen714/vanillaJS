@@ -560,3 +560,10 @@ function getAllKeysAgain(obj, key) {
   // return to the keys variable
   return keys;
 }
+
+function removeAPropertyAgain(arrayOfObjects, index, key) {
+  // remove the property at the given key from the object at the given index
+  delete arrayOfObjects[index][key];
+  // return the input array of objects
+  return arrayOfObjects;
+}
