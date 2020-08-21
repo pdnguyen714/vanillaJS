@@ -567,3 +567,11 @@ function removeAPropertyAgain(arrayOfObjects, index, key) {
   // return the input array of objects
   return arrayOfObjects;
 }
+
+function isItUndefined(param) {
+  // if param is defined (or not undefined)
+  if (param !== undefined) {
+      return "Input is defined";
+  }
+    // return 'Input is defined'
+}
