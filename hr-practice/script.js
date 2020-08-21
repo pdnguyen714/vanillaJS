@@ -620,3 +620,15 @@ function isItTruthy(param) {
   // otherwise
     // return 'Input is falsy'
 }
+
+function balancePets(dogs, cats) {
+  // if there are more than 8 dogs and fewer than 9 cats
+  if (dogs > 8 && cats < 9) {
+      return 'number of cats and dogs is acceptable';
+  } else {
+      return 'number of cats or dogs is not acceptable';
+  }
+    // return 'number of cats and dogs is acceptable'
+  // otherwise
+    // return 'number of cats or dogs is not acceptable'
+}
