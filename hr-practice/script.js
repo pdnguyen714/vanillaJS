@@ -656,3 +656,17 @@ function findIngredient(ingredientList, ingredientToSearchFor) {
   // otherwise
     // return '{ingredientToSearchFor} is not on the list'
 }
+
+function measureRequiredFruit(fruitTotals) {
+  // if there are more than 3 bananas and more than 10 strawberries
+  var totalBananas = fruitTotals.bananas;
+  var totalStrawberries = fruitTotals.strawberries;
+  if (totalBananas > 3 && totalStrawberries > 10) {
+      return 'We have enough fruit, with ' + totalBananas + ' bananas, and ' + totalStrawberries + ' strawberries';
+  }else {
+      return 'We do not have enough of both fruits';
+  }
+    // return 'We have enough fruit, with {totalBananas} bananas, and {totalStrawberries} strawberries'
+  // otherwise
+    // return 'We do not have enough of both fruits'
+}
