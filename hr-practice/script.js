@@ -583,3 +583,11 @@ function fewerApples(apples, oranges) {
   }
     // return 'There are fewer apples than oranges'
 }
+
+function validLengthPassword(password) {
+  // if password length is greater than 4 and less than 15
+  if (password.length > 4 && password.length < 15) {
+      return "Password length is valid";
+  }
+    // return 'Password length is valid'
+}
