@@ -598,3 +598,13 @@ function findAgent(agentList, agentToSearchFor) {
   return agentToSearchFor + ' is present within Agent list';
     // return '{agentToSearchFor} is present within Agent list'
 }
+
+function generateReportSummary(reportTotals, teamName) {
+  // if teamName's report total is greater than 5
+  var teamTotal = reportTotals[teamName];
+  if (teamTotal > 5) {
+        // return '{teamName} has surpassed goal with {number_of_reports_for_team} reports'
+        return teamName + ' has surpassed goal with ' + teamTotal + ' reports';
+
+  }
+}
