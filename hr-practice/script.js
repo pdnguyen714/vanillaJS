@@ -591,3 +591,10 @@ function validLengthPassword(password) {
   }
     // return 'Password length is valid'
 }
+
+function findAgent(agentList, agentToSearchFor) {
+  // if agentToSearchFor is present within agentList
+  if (agentList.indexOf(agentToSearchFor) > -1)
+  return agentToSearchFor + ' is present within Agent list';
+    // return '{agentToSearchFor} is present within Agent list'
+}
