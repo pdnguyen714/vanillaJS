@@ -751,3 +751,15 @@ function loopAnArray(array) {
     // log current array element to the console
     // increment value of index variable
 }
+
+function loopAString(string) {
+  // create an index variable
+  var index = 0;
+  // create a loop which iterates over the input string
+  while (index < string.length) {
+      console.log(string[index])
+      index++;
+  }
+    // log current string character to the console
+    // increment value of index variable
+}
