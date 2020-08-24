@@ -763,3 +763,11 @@ function loopAString(string) {
     // log current string character to the console
     // increment value of index variable
 }
+
+function loopASequenceAgain(start, end) {
+  // create a loop which loops from start to end
+  for (x = start; x <= end; x++) {
+      console.log(x);
+  }
+    // log current value to console
+}
