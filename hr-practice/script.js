@@ -795,3 +795,11 @@ function loopEveryOther(array) {
   }
     // log every other array element to the console
 }
+
+function loopStartingAtIndex(array, index) {
+  // create a loop which iterates from index to the end of the input array
+  for (var i = index; i < array.length; i++) {
+      console.log(array[i]);
+  }
+    // log current array element to the console
+}
