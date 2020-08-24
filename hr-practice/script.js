@@ -779,3 +779,11 @@ function loopAnArrayAgain(array) {
   }
     // log current array element to the console
 }
+
+function loopAStringAgain(string) {
+  // create a loop which iterates over the input string
+  for (var i = 0; i < string.length; i++) {
+      console.log(string[i]);
+  }
+    // log current string character to the console
+}
