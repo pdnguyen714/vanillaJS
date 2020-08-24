@@ -727,3 +727,15 @@ function convertScoreToGrade(score) {
       return "INVALID SCORE";
   }
 }
+
+// ========== loops practice ==========
+
+function loopASequence(start, end) {
+  // create a loop which runs if start is less than or equal to end
+  while (start <= end) {
+      console.log(start);
+      start++;
+  }
+    // log current value of start to console
+    // increment value of start
+}
