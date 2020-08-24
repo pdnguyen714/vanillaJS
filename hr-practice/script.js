@@ -787,3 +787,11 @@ function loopAStringAgain(string) {
   }
     // log current string character to the console
 }
+
+function loopEveryOther(array) {
+  // create a loop which iterates over every other element of the input array
+  for (var i = 0; i < array.length; i+=2) {
+      console.log(array[i]);
+  }
+    // log every other array element to the console
+}
