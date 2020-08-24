@@ -771,3 +771,11 @@ function loopASequenceAgain(start, end) {
   }
     // log current value to console
 }
+
+function loopAnArrayAgain(array) {
+  // create a loop which iterates over the input array
+  for (var i = 0; i < array.length; i++) {
+      console.log(array[i]);
+  }
+    // log current array element to the console
+}
