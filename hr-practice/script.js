@@ -739,3 +739,15 @@ function loopASequence(start, end) {
     // log current value of start to console
     // increment value of start
 }
+
+function loopAnArray(array) {
+  // create an index variable
+  var index = 0;
+  // create a loop which iterates over the input array
+  while (index < array.length) {
+      console.log(array[index]);
+      index++;
+  }
+    // log current array element to the console
+    // increment value of index variable
+}
