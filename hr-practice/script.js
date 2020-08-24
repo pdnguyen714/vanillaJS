@@ -824,3 +824,16 @@ function useContinue(array, index) {
       // use described statement to skip to next iteration of loop (must include semi-colon!)
     // log current array element to the console
 }
+
+function useBreak(array, index) {
+  // create a loop which iterates over the input array
+  for (var i = 0; i < array.length; i++) {
+      if (i > index) {
+          break;
+      }
+     console.log(array[i]);
+  }
+    // if current index is greater than input index
+      // use described statement to stop the loop completely (must include semi-colon!)
+    // log current array element to the console
+}
