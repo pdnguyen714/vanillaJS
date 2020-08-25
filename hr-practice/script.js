@@ -864,3 +864,14 @@ function loopAnArrayOfArrays(arrayOfArrays) {
     // create an inner loop which iterates over current inner array
       // log current element to the console
 }
+
+{
+  // create a loop which iterates over the input object
+  for (var outer in nestedObject) {
+      for (var inner in nestedObject[outer]) {
+          console.log(nestedObject[outer][inner])
+      }
+  }
+    // create an inner loop which iterates over current inner object
+      // log current value to the console
+}
