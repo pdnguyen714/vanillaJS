@@ -845,3 +845,11 @@ function loopOverKeys(object) {
   }
     // log current key to the console
 }
+
+function loopOverValues(object) {
+  // create a loop which iterates over the input object
+  for (var keys in object) {
+      console.log(object[keys]);
+  }
+    // log current value to the console
+}
