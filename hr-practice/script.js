@@ -875,3 +875,14 @@ function loopAnArrayOfArrays(arrayOfArrays) {
     // create an inner loop which iterates over current inner object
       // log current value to the console
 }
+
+function loopAnArrayOfObjects(arrayOfObjects) {
+  // create a loop which iterates over the input array
+  for (var i = 0; i < arrayOfObjects.length; i++) {
+      for (var inner in arrayOfObjects[i]) {
+          console.log(arrayOfObjects[i][inner])
+      }
+  }
+    // create an inner loop which iterates over current inner object
+      // log current value to the console
+}
