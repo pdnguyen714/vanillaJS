@@ -853,3 +853,14 @@ function loopOverValues(object) {
   }
     // log current value to the console
 }
+
+function loopAnArrayOfArrays(arrayOfArrays) {
+  // create a loop which iterates over the input array
+  for (var i = 0; i < arrayOfArrays.length; i++) {
+      for ( var j = 0; j < arrayOfArrays[i].length; j++) {
+          console.log(arrayOfArrays[i][j]);
+      }
+  }
+    // create an inner loop which iterates over current inner array
+      // log current element to the console
+}
