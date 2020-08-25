@@ -925,3 +925,19 @@ function filterOddElements(numbers) {
   }
   return oddNumbers;
 }
+
+function computeSumOfAllElements(numbers) {
+  // if input arr is empty return 0
+  if (numbers.length === 0) {
+      return 0;
+  }
+  // store sum to add to num arr
+  var sum = 0;
+  // iterate through num arr
+  for (var i = 0; i < numbers.length; i++) {
+    // add sum to num arr
+      sum += numbers[i];
+  }
+  // return sum
+  return sum;
+}
