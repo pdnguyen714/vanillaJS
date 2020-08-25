@@ -957,3 +957,15 @@ function computeAverageOfNumbers(numbers) {
   // return sum divided by total nums for average
   return sum / numbers.length;
 }
+
+function keyOfObjectValue(object, target) {
+  // iterate through obj keys
+    for (var key in object) {
+      //   if target is found return key
+      if (object[key] === target) {
+        return key;
+      } 
+    }
+  //   if target is not found return -1
+        return -1;
+  }
