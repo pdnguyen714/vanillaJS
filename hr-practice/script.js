@@ -969,3 +969,21 @@ function keyOfObjectValue(object, target) {
   //   if target is not found return -1
         return -1;
   }
+
+  function getElementsAbove40(numbers) {
+    // if no numbers over 40 return 0
+    if (numbers.length === 0) {
+        return 0;
+    }    
+    // declare count total var outside loop
+    var count = 0;
+    // iterate through numbers arr
+      for (var i = 0; i < numbers.length; i++) {
+        // increment value of count var if num over 40
+        if (numbers[i] > 40) {
+          count++;
+        }
+      }
+    // return count total
+      return count;
+    }
