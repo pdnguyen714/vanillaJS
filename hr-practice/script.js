@@ -987,3 +987,20 @@ function keyOfObjectValue(object, target) {
     // return count total
       return count;
     }
+
+    function createSentence(words) {
+      // store sentence result in var
+      var sentence = "";
+      // iterate through words arr
+        for (var i = 0; i < words.length; i++) {
+          // if its the last word add a period
+          if (i === words.length - 1) {
+              sentence += words[i] + '.';
+          // otherwise add a space after each word
+          } else {
+              sentence += words[i] + ' ';
+          }
+        }
+      // return completed sentence
+        return sentence;
+      }
