@@ -897,3 +897,14 @@ function loopAnObjectOfArrays(objectOfArrays) {
     // create an inner loop which iterates over current inner array
       // log current value to the console
 }
+
+function generateCombinations(array1, array2) {
+  // create a loop which iterates over the first array
+  for (var i = 0; i < array1.length; i++) {
+      for (var j = 0; j < array2.length; j++) {
+          console.log(array1[i] + " " + array2[j]);
+      }
+  }
+    // create an inner loop which iterates over the second array
+      // log current element of first array and current element of second array to the console with space in between
+}
