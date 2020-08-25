@@ -837,3 +837,11 @@ function useBreak(array, index) {
       // use described statement to stop the loop completely (must include semi-colon!)
     // log current array element to the console
 }
+
+function loopOverKeys(object) {
+  // create a loop which iterates over the input object
+  for (var keys in object) {
+      console.log(keys);
+  }
+    // log current key to the console
+}
