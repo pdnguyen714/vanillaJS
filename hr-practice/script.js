@@ -941,3 +941,19 @@ function computeSumOfAllElements(numbers) {
   // return sum
   return sum;
 }
+
+function computeAverageOfNumbers(numbers) {
+  // if input arr is empty return 0
+  if (numbers.length === 0) {
+      return 0;
+  }
+  // store a total sum
+  var sum = 0;
+  // iterate through num arr
+  for (var i = 0; i < numbers.length; i++) {
+      // add sum to current iteration in arr
+      sum += numbers[i];
+  }
+  // return sum divided by total nums for average
+  return sum / numbers.length;
+}
