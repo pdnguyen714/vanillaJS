@@ -908,3 +908,20 @@ function generateCombinations(array1, array2) {
     // create an inner loop which iterates over the second array
       // log current element of first array and current element of second array to the console with space in between
 }
+
+function filterOddElements(numbers) {
+  // if there are no odd nums return empty array
+  if (numbers === 0) {
+      return [];
+  }
+  // create empty arr to store odd nums
+  var oddNumbers = [];
+  // iterate through numbers arr
+  for (var i = 0; i < numbers.length; i++) {
+    // if remainder equals 1 push number into odd arr
+      if (numbers[i] % 2 === 1) {
+          oddNumbers.push(numbers[i]);
+      }
+  }
+  return oddNumbers;
+}
