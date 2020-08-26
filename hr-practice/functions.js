@@ -43,3 +43,8 @@ function isOldEnoughToDrink(age) {
     // your code here
     obj[key] = true;
   }
+
+  function removeProperty(obj, key) {
+    // your code here
+    obj[key] = undefined;
+  }
