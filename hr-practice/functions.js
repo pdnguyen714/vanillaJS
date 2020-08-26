@@ -48,3 +48,8 @@ function isOldEnoughToDrink(age) {
     // your code here
     obj[key] = undefined;
   }
+
+  function getFullName(firstName, lastName) {
+    // your code here
+    return firstName + " " + lastName;
+  }
