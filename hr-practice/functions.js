@@ -53,3 +53,13 @@ function isOldEnoughToDrink(age) {
     // your code here
     return firstName + " " + lastName;
   }
+
+  function getLengthOfWord(word) {
+    // your code here
+    return word.length;
+  }
+
+  function getLengthOfTwoWords(word1, word2) {
+    // your code here
+    return word1.length + word2.length;
+  }
