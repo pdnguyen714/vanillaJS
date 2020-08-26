@@ -63,3 +63,12 @@ function isOldEnoughToDrink(age) {
     // your code here
     return word1.length + word2.length;
   }
+
+  function checkAge(name, age) {
+    // your code here
+    if (age < 21) {
+        return "Go home, " + name + '!';
+    } else {
+        return "Welcome, " + name + '!';
+    }
+  }
