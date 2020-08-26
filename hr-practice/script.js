@@ -970,37 +970,62 @@ function keyOfObjectValue(object, target) {
         return -1;
   }
 
-  function getElementsAbove40(numbers) {
-    // if no numbers over 40 return 0
-    if (numbers.length === 0) {
-        return 0;
-    }    
-    // declare count total var outside loop
-    var count = 0;
-    // iterate through numbers arr
-      for (var i = 0; i < numbers.length; i++) {
-        // increment value of count var if num over 40
-        if (numbers[i] > 40) {
-          count++;
-        }
+function getElementsAbove40(numbers) {
+  // if no numbers over 40 return 0
+  if (numbers.length === 0) {
+      return 0;
+  }    
+  // declare count total var outside loop
+  var count = 0;
+  // iterate through numbers arr
+    for (var i = 0; i < numbers.length; i++) {
+      // increment value of count var if num over 40
+      if (numbers[i] > 40) {
+        count++;
       }
-    // return count total
-      return count;
     }
+  // return count total
+    return count;
+  }
 
-    function createSentence(words) {
-      // store sentence result in var
-      var sentence = "";
-      // iterate through words arr
-        for (var i = 0; i < words.length; i++) {
-          // if its the last word add a period
-          if (i === words.length - 1) {
-              sentence += words[i] + '.';
-          // otherwise add a space after each word
-          } else {
-              sentence += words[i] + ' ';
-          }
-        }
-      // return completed sentence
-        return sentence;
+function createSentence(words) {
+  // store sentence result in var
+  var sentence = "";
+  // iterate through words arr
+    for (var i = 0; i < words.length; i++) {
+      // if its the last word add a period
+      if (i === words.length - 1) {
+          sentence += words[i] + '.';
+      // otherwise add a space after each word
+      } else {
+          sentence += words[i] + ' ';
       }
+    }
+  // return completed sentence
+    return sentence;
+  }
+
+function countWords(stringOfWords) {
+  // your code here
+// if string is empty return empty obj
+  if (stringOfWords === '') {
+      return {};
+  }
+//set a result of count obj in var
+  var counts = {};
+//split the string into an array
+  var words = stringOfWords.split(' ');
+//iterate through arr of strings
+  for (var i = 0; i < words.length; i++) {
+// create an alias to store current word
+      var currentWord = words[i];
+    //   if word does not exist assign to value of 1
+      if (counts[currentWord] === undefined) {
+          counts[currentWord] = 1;
+        //   if word exists increment count value by 1
+      } else {
+          counts[currentWord]++;
+      }
+  }
+  return counts;
+}  
