@@ -1029,3 +1029,25 @@ function countWords(stringOfWords) {
   }
   return counts;
 }  
+
+function countAllCharacters(string) {
+  // your code here
+//   if empty string return an empty obj
+  if (string === '') {
+      return {};
+  }
+//   create count result var
+  var count = {};
+//   iterate through string and check if value exists
+  for (var i = 0; i < string.length; i++) {
+    //   if value of string is undefined assign as value of 1
+      if (count[string[i]] === undefined) {
+          count[string[i]] = 1;
+        //   otherwise if value is found increment count var by 1
+      } else {
+          count[string[i]]++;
+      }
+  }
+//   return value of count var
+  return count;
+}
