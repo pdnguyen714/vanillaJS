@@ -38,3 +38,8 @@ function isOldEnoughToDrink(age) {
     // your code here
     return obj[key];
   }
+
+  function addProperty(obj, key) {
+    // your code here
+    obj[key] = true;
+  }
