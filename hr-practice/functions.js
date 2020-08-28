@@ -215,3 +215,8 @@ function equalsTen(num) {
     // your code here
     return num * num * num;
   }
+
+  function square(num) {
+    // your code here
+    return num * num;
+  }
