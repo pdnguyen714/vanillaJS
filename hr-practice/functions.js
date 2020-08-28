@@ -205,3 +205,8 @@ function equalsTen(num) {
     var total = num1 + num2;
     return total / numArr.length;
   }
+
+  function computeAreaOfATriangle(base, height) {
+    // your code here
+    return base * height / 2;
+  }
