@@ -210,3 +210,8 @@ function equalsTen(num) {
     // your code here
     return base * height / 2;
   }
+
+  function cube(num) {
+    // your code here
+    return num * num * num;
+  }
