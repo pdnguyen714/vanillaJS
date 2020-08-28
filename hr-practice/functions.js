@@ -198,3 +198,10 @@ function equalsTen(num) {
         return false;
     }
   }
+
+  function average(num1, num2) {
+    // your code here
+    var numArr = [num1, num2];
+    var total = num1 + num2;
+    return total / numArr.length;
+  }
