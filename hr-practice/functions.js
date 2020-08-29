@@ -226,3 +226,9 @@ function equalsTen(num) {
     var total = word1.length + word2.length;
     return total / 2;
   }
+
+  function addFullNameProperty(obj) {
+    // your code here
+    obj.fullName = obj.firstName + " " + obj.lastName;
+    return obj.fullName;
+  }
