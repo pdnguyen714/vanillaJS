@@ -220,3 +220,9 @@ function equalsTen(num) {
     // your code here
     return num * num;
   }
+
+  function computeAverageLengthOfWords(word1, word2) {
+    // your code here
+    var total = word1.length + word2.length;
+    return total / 2;
+  }
