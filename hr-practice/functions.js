@@ -237,3 +237,12 @@ function equalsTen(num) {
     // your code here
     return obj1[key] = obj2;
   }
+
+  function isPersonOldEnoughToDrive(person) {
+    // your code here
+    if (person.age >= 16) {
+        return true;
+    } else {
+        return false;
+    }
+  }
