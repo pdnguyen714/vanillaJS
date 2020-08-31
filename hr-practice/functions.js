@@ -246,3 +246,11 @@ function equalsTen(num) {
         return false;
     }
   }
+
+  function isPersonOldEnoughToVote(person) {
+    // your code here
+    if (person.age >= 18) {
+        return true;
+    }
+    return false;
+  }
