@@ -232,3 +232,8 @@ function equalsTen(num) {
     obj.fullName = obj.firstName + " " + obj.lastName;
     return obj.fullName;
   }
+
+  function addObjectProperty(obj1, key, obj2) {
+    // your code here
+    return obj1[key] = obj2;
+  }
