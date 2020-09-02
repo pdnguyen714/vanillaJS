@@ -280,3 +280,9 @@ function equalsTen(num) {
     }
     return array.slice(-1)[0];
   }
+
+  function addToFront(arr, element) {
+    // your code here
+    arr.unshift(element);
+    return arr;
+  }
