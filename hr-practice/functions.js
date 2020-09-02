@@ -264,3 +264,11 @@ function equalsTen(num) {
     // your code here
     return array[n];
   }
+
+  function getFirstElement(array) {
+    // your code here
+    if (array.length === 0) {
+        return undefined;
+    }
+    return array[0];
+  }
