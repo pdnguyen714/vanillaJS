@@ -292,3 +292,8 @@ function equalsTen(num) {
     arr.push(element);
     return arr;
   }
+
+  function computeAreaOfARectangle(length, width) {
+    // your code here
+    return length * width;
+  }
