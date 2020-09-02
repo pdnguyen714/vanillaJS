@@ -272,3 +272,11 @@ function equalsTen(num) {
     }
     return array[0];
   }
+
+  function getLastElement(array) {
+    // your code here  
+    if (array.length === 0) {
+        return undefined;
+    }
+    return array.slice(-1)[0];
+  }
