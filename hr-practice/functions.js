@@ -259,3 +259,8 @@ function equalsTen(num) {
     // your code here
     return obj[key] = arr;
   }
+
+  function getNthElement(array, n) {
+    // your code here
+    return array[n];
+  }
