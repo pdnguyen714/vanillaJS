@@ -297,3 +297,8 @@ function equalsTen(num) {
     // your code here
     return length * width;
   }
+
+  function computePerimeterOfARectangle(length, width) {
+    // your code here
+    return length * 2 + width * 2;
+  }
