@@ -254,3 +254,8 @@ function equalsTen(num) {
     }
     return false;
   }
+
+  function addArrayProperty(obj, key, arr) {
+    // your code here
+    return obj[key] = arr;
+  }
