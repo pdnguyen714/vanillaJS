@@ -286,3 +286,9 @@ function equalsTen(num) {
     arr.unshift(element);
     return arr;
   }
+
+  function addToBack(arr, element) {
+    // your code here
+    arr.push(element);
+    return arr;
+  }
