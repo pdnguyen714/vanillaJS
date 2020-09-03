@@ -312,3 +312,8 @@ function equalsTen(num) {
     // your code here
     return length * width * 3;
   }
+
+  function computePerimeterOfACircle(radius) {
+    // your code here
+    return 2 * Math.PI * radius;
+  }
