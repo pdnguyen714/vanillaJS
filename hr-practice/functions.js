@@ -307,3 +307,8 @@ function equalsTen(num) {
     // your code here
     return side1 + side2 + side3;
   }
+
+  function computeTripledAreaOfARectangle(length, width) {
+    // your code here
+    return length * width * 3;
+  }
