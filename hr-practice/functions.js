@@ -342,3 +342,8 @@ function equalsTen(num) {
     // your code here
     return word1.length + word2.length + word3.length;
   }
+
+  function joinArrays(arr1, arr2) {
+    // your code here
+    return arr1.concat(arr2);
+  }
