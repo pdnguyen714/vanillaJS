@@ -332,3 +332,8 @@ function equalsTen(num) {
     // your code here
     return Math.sqrt(num);
   }
+
+  function doubleSquareRootOf(num) {
+    // your code here
+    return Math.sqrt(num) * 2;
+  }
