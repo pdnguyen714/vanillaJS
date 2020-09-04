@@ -317,3 +317,8 @@ function equalsTen(num) {
     // your code here
     return 2 * Math.PI * radius;
   }
+
+  function computeAreaOfACircle(radius) {
+    // your code here
+    return Math.PI * (radius * radius);
+  }
