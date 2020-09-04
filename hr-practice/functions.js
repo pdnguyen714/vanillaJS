@@ -322,3 +322,8 @@ function equalsTen(num) {
     // your code here
     return Math.PI * (radius * radius);
   }
+
+  function computePower(num, exponent) {
+    // your code here
+    return Math.pow(num, exponent);
+  }
