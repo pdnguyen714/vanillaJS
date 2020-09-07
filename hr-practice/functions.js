@@ -347,3 +347,8 @@ function equalsTen(num) {
     // your code here
     return arr1.concat(arr2);
   }
+
+  function getElementsAfter(array, n) {
+    // your code here
+      return array.slice(n + 1);
+  }
