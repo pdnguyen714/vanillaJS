@@ -357,3 +357,8 @@ function equalsTen(num) {
     // your code here
     return array.slice(0, n);
   }
+
+  function getAllElementsButFirst(array) {
+    // your code here
+    return array.slice(1);
+  }
