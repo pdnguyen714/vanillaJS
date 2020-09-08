@@ -352,3 +352,8 @@ function equalsTen(num) {
     // your code here
       return array.slice(n + 1);
   }
+
+  function getElementsUpTo(array, n) {
+    // your code here
+    return array.slice(0, n);
+  }
