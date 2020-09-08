@@ -362,3 +362,9 @@ function equalsTen(num) {
     // your code here
     return array.slice(1);
   }
+
+  function getAllElementsButLast(array) {
+    // your code here
+    lastIndex = array.length - 1;
+    return array.slice(0, lastIndex);
+  }
