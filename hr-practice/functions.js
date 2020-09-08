@@ -368,3 +368,9 @@ function equalsTen(num) {
     lastIndex = array.length - 1;
     return array.slice(0, lastIndex);
   }
+
+  function removeFromFront(arr) {
+    // your code here
+    let removedElement = arr.shift();
+    return arr.slice(0);
+  }
