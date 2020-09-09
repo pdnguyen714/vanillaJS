@@ -380,3 +380,9 @@ function equalsTen(num) {
     var poppedArr = arr.pop();
     return arr.slice(0, poppedArr);
   }
+
+  function removeFromBackOfNew(arr) {
+    // your code here
+    var lastElement = arr.length - 1;
+    return arr.slice(0, lastElement)
+  }
