@@ -374,3 +374,9 @@ function equalsTen(num) {
     let removedElement = arr.shift();
     return arr.slice(0);
   }
+
+  function removeFromBack(arr) {
+    // your code here
+    var poppedArr = arr.pop();
+    return arr.slice(0, poppedArr);
+  }
