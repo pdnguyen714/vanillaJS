@@ -386,3 +386,8 @@ function equalsTen(num) {
     var lastElement = arr.length - 1;
     return arr.slice(0, lastElement)
   }
+
+  function removeFromFrontOfNew(arr) {
+    // your code here
+    return arr.slice(1)
+  }
