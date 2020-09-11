@@ -402,3 +402,11 @@ function equalsTen(num) {
     }
     return count;
   }
+
+  function getAllLetters(str) {
+    // your code here
+    if (str === '') {
+        return str.split('');
+    }
+    return str.split('');
+  }
