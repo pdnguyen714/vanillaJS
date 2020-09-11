@@ -418,3 +418,20 @@ function equalsTen(num) {
     }
     return str.split(' ');
   }
+
+  function countWords(str) {
+    // your code here
+    if (str === '') {
+        return {};
+    }
+    var result = {};
+    var wordArr = str.split(' ');
+    for (var i = 0; i < wordArr.length; i++) {
+        if (result[wordArr[i]] === undefined) {
+            result[wordArr[i]] = 1;
+        } else {
+            result[wordArr[i]] += 1;
+        }
+    }
+    return result;
+  }
