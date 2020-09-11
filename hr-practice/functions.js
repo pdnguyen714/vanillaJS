@@ -410,3 +410,11 @@ function equalsTen(num) {
     }
     return str.split('');
   }
+
+  function getAllWords(str) {
+    // your code here
+    if (str === '') {
+        return str.split('');
+    }
+    return str.split(' ');
+  }
