@@ -436,6 +436,18 @@ function equalsTen(num) {
     return result;
   }
 
+  function isEitherEvenOrAreBoth7(num1, num2) {
+    // your code here
+    var isEitherEven = (num1 % 2 === 0) || (num2 % 2 === 0);
+    var areBoth7 = (num1 === 7) && (num2 === 7);
+    
+    if (isEitherEven || areBoth7) {
+        return true;
+    } else {
+        return false;
+    }
+  }
+
   function or(expression1, expression2) {
     // your code here
     return !(!expression1 && !expression2);
