@@ -440,3 +440,15 @@ function equalsTen(num) {
     // your code here
     return !(!expression1 && !expression2);
   }
+
+  function isEitherEvenAndLessThan9(num1, num2) {
+    // your code here
+    var atLeastOneEven = (num1 % 2 === 0) || (num2 % 2 === 0);
+    var lessThanNine = (num1 < 9) && (num2 < 9);
+    
+    if (atLeastOneEven && lessThanNine) {
+        return true;
+    } else {
+        return false;
+    }
+  }
