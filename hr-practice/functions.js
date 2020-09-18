@@ -452,3 +452,12 @@ function equalsTen(num) {
         return false;
     }
   }
+
+  function extend(obj1, obj2) {
+    // your code here
+    for (keyFromObj2 in obj2) {
+        if (obj1[keyFromObj2] === undefined) {
+            obj1[keyFromObj2] = obj2[keyFromObj2];
+        }
+    }
+  }
