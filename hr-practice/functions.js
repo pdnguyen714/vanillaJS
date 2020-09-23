@@ -482,3 +482,12 @@ function equalsTen(num) {
         }
     }
   }
+
+  function removeNumberValues(obj) {
+    // your code here  
+    for (var key in obj) {
+        if (typeof obj[key] === "number") {
+            delete obj[key];
+        }
+    }
+  }
